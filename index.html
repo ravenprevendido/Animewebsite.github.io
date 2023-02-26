@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Anime / Simple website</title>
+
+  <!-- font awesome cdn link  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+<!-- header section starts  -->
+<section class="header">
+
+  <a href="#" class="logo">  Anime</a>
+  
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#action">action</a>
+    <a href="#popular">popular</a>
+    <a href="#videos">videos</a>
+  </nav>
+
+  <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+
+
+<!-- header section end  -->
+
+<!-- home section starts -->
+
+  <section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide" style="background: url(Naruto.jfif) no-repeat; ">
+          <div class="content">
+            <h3>Naruto Shippuden</h3>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+        
+        <div class="swiper-slide slide" style="background: url(OnePiece.jfif) no-repeat; ">
+          <div class="content">
+            <h3>One Piece</h3>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+        
+
+        <div class="swiper-slide slide" style="background: url(bleach.jfif) no-repeat;">
+          <div class="content">
+            <h3>Bleach a thousand blood war</h3>
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+    </div>
+
+  </section>
+
+
+<!-- home section ends -->
+
+
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+  <div class="image">
+    <img src="allanime.jfif" alt="">
+  </div>
+
+  <div class="content">
+    <h3 class="title">Welcome to our Anime Community</h3>
+    <p>This content is all about anime, that contains, action, comedy, and etc.</p>
+    <a href="#" class="btn">read more</a>
+    <div class="icons-container">
+      <div class="icons">
+        <img src="myheroacademia.jfif" alt="">
+      </div>
+      <div class="icons">
+        <img src="castlevania.jfif" alt="">
+      </div>
+      <div class="icons">
+        <img src="attackontitan.jfif" alt="">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- action section starts  -->
+
+<section class="action" id="action">
+  <div class="heading">
+    <h3>Action Anime</h3>
+  </div>
+
+  <div class="swiper action-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide" data-name="action-1">
+        <img src="jujutsu.jfif" alt="">
+        <h3>Jujutsu Kaisen</h3>
+        <div class="price"> For Free</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="action-2">
+        <img src="Recreator.jfif" alt="">
+        <h3>Re-Creator</h3>
+        <div class="price">For Free</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="action-3">
+        <img src="demonslayer.jfif" alt="">
+        <h3>Demonslayer</h3>
+        <div class="price">For Free</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="action-4">
+        <img src="spyandfamiky.jfif" alt="">
+        <h3>Spy x Family</h3>
+        <div class="price">For Free</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="action-5">
+        <img src="tokyorevengers.jfif" alt="">
+        <h3>Tokyo Revengers</h3>
+        <div class="price">For Free</div>
+      </div>
+
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+    
+
+  </div>
+
+</section>
+
+
+<!-- action section ends  -->
+
+<!-- actionpreview section starts  -->
+
+<section class="action-preview-container">
+
+  <div id="close-preview" class="fas fa-times"></div>
+
+  <div class="action-preview" data-target="action-1">
+    <img src="jujutsu.jfif" alt="">
+    <h3>Jujutsu Kaisen</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="price">For Free</div>
+    <a href="#" class="btn">Download Now</a>
+  </div>
+
+  <div class="action-preview" data-target="action-2">
+    <img src="Recreator.jfif" alt="">
+    <h3>Re-Creator</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="price">For Free</div>
+    <a href="#" class="btn">Download Now</a>
+  </div>
+
+  <div class="action-preview" data-target="action-3">
+    <img src="demonslayer.jfif" alt="">
+    <h3>Demonslayer</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="price">For Free</div>
+    <a href="#" class="btn">Download now</a>
+  </div>
+
+  <div class="action-preview" data-target="action-4">
+    <img src="spyandfamiky.jfif" alt="">
+    <h3>Spy x Family</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="price">For Free</div>
+    <a href="#" class="btn">Download Now</a>
+  </div>
+
+  <div class="action-preview" data-target="action-5">
+    <img src="tokyorevengers.jfif" alt="">
+    <h3>Tokyo Revengers</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="price">For Free</div>
+    <a href="#" class="btn">Download Now</a>
+  </div>
+
+</section>
+
+
+<!-- action preview section end  -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+  <div class="heading">
+    <span>Our gallery</span>
+    <h3>Romance Anime</h3>
+  </div>
+
+  <div class="popular-container">
+    <a href="kaguyasama1.jfif" class="box">
+    <img src="kaguyasama1.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="plasticmemories.jfif" class="box">
+    <img src="plasticmemories.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="haganai.jfif" class="box">
+    <img src="haganai.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="mydressupdarling.jfif" class="box">
+    <img src="mydressupdarling.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="violetevergarden.jfif" class="box">
+    <img src="violetevergarden.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  <a href="loveafterworld.jfif" class="box">
+    <img src="loveafterworld.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="tamakomarket.jfif" class="box">
+    <img src="tamakomarket.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="inuyasha.jfif" class="box">
+    <img src="inuyasha.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  
+  <a href="datealive.jfif" class="box">
+    <img src="datealive.jfif" alt="">
+    <div class="icon"> <i class="fas fa-plus"></i></div>
+  </a>
+
+  </div>
+
+</section>
+
+<!-- Popular section end  -->
+
+<!-- This is video section section starts  -->
+
+  <section class="videos" id="videos">
+
+    <div class="heading">
+      <span>Action movies</span>
+      <h3>Action Anime movies</h3>
+    </div>
+
+    <div class="swiper videos-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oBa2VPP6L0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span>Baki vs Oliva</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <a href="#"> <i class="fas fa-calendar"></i> 22nd Nov, 2022</a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+            <a href="#" class="title"> Baki hanma vs Buiscuit Oliva</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <a href="#" class="btn">Must watch</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yTXBJ9XkN_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span>Naruto vs pain</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <a href="#"> <i class="fas fa-calendar"></i> 22nd Nov, 2022</a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+            <a href="#" class="title"> Naruto vs Pain full Fight</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <a href="#" class="btn">Must watch</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9QGf6UYs6fI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span>Ichigo vs Aizen</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <a href="#"> <i class="fas fa-calendar"></i> 22nd Nov, 2022</a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+            <a href="#" class="title"> ichigo vs aizen full fight</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <a href="#" class="btn">Must Watch</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qejzh0ZwdwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span>Zoro vs Pica</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <a href="#"> <i class="fas fa-calendar"></i> 22nd Nov, 2022</a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+            <a href="#" class="title"> Zoro vs Pica Full fight|| One Piece</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <a href="#" class="btn">Must Watch</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j5bEegDfHAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span>Oden vs Kaido</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <a href="#"> <i class="fas fa-calendar"></i> 22nd Nov, 2022</a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+            <a href="#" class="title"> Oden vs Kaido Full Fight || One Piece</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <a href="#" class="btn">Must Watch</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/B5DKmO5FR1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <span>Deku vs Overhaul</span>
+          </div>
+          <div class="content">
+            <div class="icon">
+              <a href="#"> <i class="fas fa-calendar"></i> 22nd Nov, 2022</a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+            <a href="#" class="title"> Deku vs Overhaul || MHA</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit?</p>
+            <a href="#" class="btn">Must Watch</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </section>
+
+<!-- blogs section end  -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="icons-container">
+
+    
+
+    <div class="icons">
+      <i class="fas fa-phone-alt"></i>
+      <h3>Phone</h3>
+      <p>+63 948 570 4576</p>
+      <p>+63 925 550 1526</p>
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-envelope"></i>
+      <h3>Email</h3>
+      <p>prevendidoraven5@gmaill.com</p>
+      <p>ravenprevendido@gmail.com</p>
+    </div>
+
+    
+    <div class="icons">
+      <i class="fas fa-map"></i>
+      <h3>Address</h3>
+      <p>Philippines Metro manila</p>
+      <p>Las Pinas</p>
+    </div>
+
+  </div>
+
+  <div class="share">
+    <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-twitter"></a>
+    <a href="#" class="fab fa-linkedin"></a>
+  </div>
+
+  <div class="credit"> Created by <span>mr. web developer</span>| All right reserved! <span>2022</span></div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+
+<script src="java.js"></script>
+
+
+<script>
+  lightGallery(document.querySelector('.popular .popular-container'));
+</script>
+
+</body>
+</html>
